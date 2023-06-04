@@ -245,9 +245,11 @@ form input::placeholder {
     background-color: #3C2313;
     color: #fff;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     padding: 2rem 5rem;
+    gap: 2rem;
 }
 
 .footer__bottom {
